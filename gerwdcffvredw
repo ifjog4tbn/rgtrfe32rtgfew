@@ -9100,7 +9100,7 @@ addcmd('toolinvisible',{'toolinvis','tinvis'},function(args, speaker)
 	box.Anchored = true
 	box.CanCollide = true
 	box.Size = Vector3.new(10,1,10)
-	box.Position = Vector3.new(0,10000,0)
+	box.Position = Vector3.new(-23.02448081970215, 147.3094024658203, -5.879022121429443)
 	box.Parent = workspace
 	local boxTouched = box.Touched:connect(function(part)
 		if (part.Parent.Name == Players.LocalPlayer.Name) then
